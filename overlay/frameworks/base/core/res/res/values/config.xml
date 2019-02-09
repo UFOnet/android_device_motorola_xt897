@@ -58,4 +58,7 @@
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
     <string translatable="false" name="config_radio_access_family">GSM|WCDMA|CDMA|EVDO|LTE</string>
+
+    <!-- IpReachability monitor enable/Disable -->
+    <bool translatable="false" name="config_wifi_ipreachability_monitor">false</bool>
 </resources>
