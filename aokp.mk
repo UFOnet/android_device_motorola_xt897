@@ -1,5 +1,5 @@
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/qcom-common/overlay-cm
 
@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
-PRODUCT_NAME := lineage_xt897
+PRODUCT_NAME := aokp_xt897
 TARGET_VENDOR_PRODUCT_NAME := XT897
 TARGET_VENDOR_DEVICE_NAME := asanti_c
 
