@@ -36,6 +36,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     unlock-us-gsm
 
+# CMActions
+PRODUCT_PACKAGES += \
+    libjni_CMActions \
+    CMActions
+
 # QCOM Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
